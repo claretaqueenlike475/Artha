@@ -1,0 +1,45 @@
+# ─── Web framework ────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# ─── LangChain core ───────────────────────────────────────────────────────────
+langchain==0.3.25
+langchain-core==0.3.59
+langchain-google-genai==2.1.4
+langgraph==0.4.3
+langchain-mcp-adapters==0.2.2
+
+# ─── MCP server ───────────────────────────────────────────────────────────────
+mcp==1.9.0
+
+# ─── Pydantic / config ────────────────────────────────────────────────────────
+pydantic-settings==2.3.0
+python-dotenv==1.0.1
+
+# ─── Financial data ───────────────────────────────────────────────────────────
+yfinance==0.2.51
+pandas==2.2.2
+numpy==1.26.4
+
+# ─── Search / news ────────────────────────────────────────────────────────────
+tavily-python==0.3.3
+newsapi-python==0.2.7
+
+# ─── Document parsing ─────────────────────────────────────────────────────────
+PyPDF2==3.0.1
+openpyxl==3.1.5
+python-docx==1.1.2
+python-pptx==1.0.2
+
+# ─── RAG / embeddings ─────────────────────────────────────────────────────────
+chromadb==0.5.3
+sentence-transformers==3.0.1
+
+# ─── Time series forecasting ──────────────────────────────────────────────────
+torch==2.3.1
+transformers==4.43.3
+accelerate==0.33.0
+
+# ─── Terminal UI ──────────────────────────────────────────────────────────────
+colorama==0.4.6
