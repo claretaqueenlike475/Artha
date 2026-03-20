@@ -5,7 +5,6 @@ Ask about stock prices, run full analyses, upload documents, and get price forec
 
 > **"Artha"** means wealth and purpose in Sanskrit.
 
----
 
 ## Stack
 
@@ -15,7 +14,6 @@ Ask about stock prices, run full analyses, upload documents, and get price forec
 - **Backend API:** FastAPI
 - **MCP Server:** FastMCP — single source of truth for all tool definitions
 
----
 
 ## Quickstart
 
@@ -69,7 +67,7 @@ SESSION_TTL_SECONDS=3600
 ```
 
 | Key | Get it from | Free tier |
-|---|---|---|
+|-----|-------------|-----------|
 | `GROQ_API_KEY` | https://console.groq.com | 14,400 req/day |
 | `GEMINI_API_KEY` | https://aistudio.google.com/app/apikey | ~1,500 req/day |
 | `TAVILY_API_KEY` | https://app.tavily.com | 1,000 searches/month |
@@ -77,7 +75,6 @@ SESSION_TTL_SECONDS=3600
 
 `yfinance` requires no API key.
 
----
 
 ## Running the App
 
@@ -108,7 +105,7 @@ Runs all tool functions independently and prints verbose output. No agent involv
 ## API Routes
 
 | Method | Route | Description |
-|---|---|---|
+|--------|-------|-------------|
 | `POST` | `/chat` | Send a message to the agent |
 | `POST` | `/upload?session_id=...` | Upload a file (PDF, DOCX, Excel, CSV, TXT, PPT) |
 | `POST` | `/context` | Inject raw text context into a session |
