@@ -28,6 +28,7 @@ from config import settings
 os.environ["GOOGLE_API_KEY"] = settings.GEMINI_API_KEY
 
 from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.tools import tool
@@ -403,14 +404,16 @@ def _build_agent():
     if _agent is not None:
         return
 
-    llm = ChatGroq(
-        model="llama-3.3-70b-versatile",
-        api_key=settings.GROQ_API_KEY,
+    # llm = ChatGroq(
+    #     model="llama-3.3-70b-versatile",
+    #     api_key=settings.GROQ_API_KEY,
+    #     temperature=0.1,
+    # )
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        google_api_key=settings.GEMINI_API_KEY,
         temperature=0.1,
     )
-    # llm = ChatGemini(
-    #     model="gemini-1.5-flash",
-    # )
     _agent = create_react_agent(model=llm, tools=ALL_TOOLS)
 
 
