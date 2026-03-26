@@ -13,10 +13,21 @@ class Settings(BaseSettings):
     """
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
+    # Single Agent System.
     GEMINI_API_KEY: str
+
+    # Multi Agent System.
+    GEMINI_API_KEY_ANALYSIS: str
+    GEMINI_API_KEY_AGGREGATOR: str
+
+    # Single and Mulit-Agent System.
     GROQ_API_KEY: str
+
+    # Tools API Keys
     TAVILY_API_KEY: str
     NEWS_API_KEY: str
+
+    # System Settings.
     UPLOAD_DIR: str = "uploads"
     SESSION_TTL_SECONDS: int = 3600
 

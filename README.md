@@ -2,14 +2,28 @@
 
 REST API for the Artha AI financial analyst. Built with FastAPI + LangGraph + Groq.
 
-Part of the [Artha Project](https://github.com/Ishan2608/Artha).
+Artha is an AI Agent built for Financial Assitance with various capabilities
+- Data Fetching
+- Data Analyses
+  - Technical Analyses
+  - Fundamental Analyses
+- Visualization
+- Predictions, 
+- Education,
+- Summarization
 
+Two Approaches:
+- Single Agent
+- Multi-Agent
+  - A guide/router that decides which sub agent to use. 
+  - An analyst tool to perform stock data related tasks.
+  - Aggregator tool to fetch and summarize data from internet, news, and files.
 ---
 
 ## Stack
 
-| | |
-|---|---|
+| Aspect | Tool/Source |
+|--------|-------------|
 | API | FastAPI + Uvicorn |
 | Agent | LangGraph ReAct + LangChain |
 | LLM | Groq — Llama 3.3 70B |
